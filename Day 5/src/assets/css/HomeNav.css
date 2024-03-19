@@ -1,0 +1,20 @@
+
+.bb {
+    margin-left: 66.5rem !important; 
+}
+
+.ll {
+    padding-left: 68.5rem !important; 
+}
+
+.back {
+    background-color:#bd2130;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bb, .ll {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}

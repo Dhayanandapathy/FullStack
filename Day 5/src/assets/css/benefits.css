@@ -1,0 +1,29 @@
+.bk-img{
+    width: 19rem;
+    height: 15rem;
+}
+.cv{
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+.cb{
+    margin-left: 35rem;
+    margin-top: -393px;
+}
+.cn{
+    margin-left: 67rem;
+    margin-top: -393px;
+}
+.io{
+    padding-top: 6px;
+}
+.jj{
+    font-family: fantasy;
+    margin-left: 5rem;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-bodyy{
+    background-color:#bd2130;
+}

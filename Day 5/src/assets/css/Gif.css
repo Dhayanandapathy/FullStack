@@ -1,0 +1,65 @@
+.splitscreen{
+    display: flex;
+    height: 700 px;
+    margin-top: 0px;
+  }
+  .toppane{
+    width: 56%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+  }
+  .bottompane{
+    width: 50%;
+    height: 550px;
+    padding-top: 170px;
+    
+  }
+  #thamem
+  {
+    margin-left: 250px;
+  }
+  .h1
+  {
+    margin-left: 100px;
+    color: #bd2130;
+  }
+  .h2
+  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+    padding-top: 5rem;
+    color: blue;
+  }
+  .videoTd{
+    height: 73%;
+    width: 100%;
+  }
+  
+@media screen and (max-width: 768px) {
+    .splitscreen {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .toppane {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .bottompane {
+      width: 100%;
+      height: auto;
+      padding-top: 20px;
+    }
+  
+    #thamem {
+      margin-left: 0;
+    }
+  
+    .heading-primary {
+      margin-left: 20px;
+    }
+  }
