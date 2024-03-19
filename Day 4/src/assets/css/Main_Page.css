@@ -1,0 +1,47 @@
+#root {
+    padding: 0rem; 
+    max-width: 100%;
+}
+
+.bg {
+    background-color:#bd2130;
+}
+
+.btn-outline {
+    color: #000000;
+    background-color: transparent;
+    background-image: none;
+    border-color: #000000;
+}
+
+.move {
+    margin-left: 58rem; 
+}
+
+.move1 {
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    #root {
+        padding: 0 rem; 
+    }
+
+    .move {
+        margin-left: 0rem; 
+    }
+}
+.videoTag{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hover-pointer{
+    max-height: 50px;
+}
+.logox{
+    height: 4vh;
+    margin-right: 6px;
+    padding-bottom: 4px;
+}

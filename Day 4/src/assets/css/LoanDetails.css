@@ -1,0 +1,31 @@
+.card-list {
+    padding-top: 50px;
+    padding-left: 29rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card2 {
+    border: 1px solid #026d62;
+    padding: 16px;
+    margin: 16px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .card-content {
+    color: #666;
+  }
+
+  .card-title
+  {
+    padding-left:100px;
+    padding-top: 3px;
+  }

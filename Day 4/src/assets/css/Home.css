@@ -1,0 +1,34 @@
+.card1{
+    /* padding-left: 0rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    width: 50rem; */
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.h3{
+    color: #bd2130;
+    margin-top: 5rem;
+    padding-bottom: 6rem;
+    margin-left: 20px;
+}
+.h13{
+    margin-top: 40px;
+    color: blue;
+    margin-left: 20px;
+    width: 900px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.videoTd{
+    margin-top: 60px;
+    height: 450px;
+    width: 550px;
+    margin-left: -25px;
+}
+.dumc{
+    margin-top: 40px;
+    margin-left: -45px;
+}
