@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#back{
+    background-image: url('../images/loginback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #bd2130;
+    max-height: 450px;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: rgba(59, 0, 130, 0.442) 0px 30px 90px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 1rem;
+}
+
+/*checkbox to switch from sign up to login*/
+
+#chk {
+    display: none;
+}
+
+/*Login*/
+
+.login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.login label {
+    margin: 5% 0 5%;
+}
+
+.label1 {
+    color: #000000;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    background: #e0dede;
+    padding: 8px;
+    margin-top: 11px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+/*Register*/
+
+.register {
+    background: #eee;
+    border-radius: 60% / 10%;
+    transition: .8s ease-in-out;
+}
+
+.register label {
+    color: #000000;
+    transform: scale(.6);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+
+    .form {
+        padding: 1rem;
+    }
+}
+
+#chk:checked ~ .register {
+    transform: translateY(-68%);
+}
+
+#chk:checked ~ .register label {
+    transform: scale(1);
+    margin-bottom: .5rem;
+}
+
+#chk:checked ~ .login label {
+    transform: scale(.6);
+}   
+
+/*Button*/
+
+.form button {
+    width: 70%;
+    height: 40px;
+    margin: 15px auto 10%;
+    color: #ffffff;
+    background: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
